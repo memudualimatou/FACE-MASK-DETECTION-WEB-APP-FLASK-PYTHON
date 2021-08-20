@@ -49,7 +49,7 @@ The system depends on the following files.
 
 <br>
 The WEB APPLICATION :<br><br>
-![capture2](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/static/ezgif.com-gif-maker-_2_.gif)<br><br>
+![capture](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/ezgif.com-gif-maker-_2_.gif)<br><br>
 
 ## 🔑 PEREQUISITES
 
