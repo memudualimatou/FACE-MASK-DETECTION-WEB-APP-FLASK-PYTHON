@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 
 # Loading the Model
-model = load_model('mask_detector_B2.h5')
+model = load_model('mask_detector.h5')
 
 # Loading the face detector
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
