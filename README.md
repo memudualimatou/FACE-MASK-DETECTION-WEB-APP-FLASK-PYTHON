@@ -23,8 +23,8 @@ With the increasing number of COVID-19 victims, integrating systems capable of d
 
 ## ⚙️ HOW THE SYSTEM WORKS?
 
-This system is a mask detection project that detect face mask on people'face. This flask web app detects if someone is wearing a face mask correctly, incorrectly or not.
-This system retrive an image uploaded extract the faces detected in the image, feed each face into a serialized model `mask_detector.h5` which outputs a tuple composed of 3 values. The first value indicates the probability of no mask, the second value is the probability of a correct mask and the last one is the probability of the incorrect mask.
+This system is a mask detection project that detects face mask on people'face. This flask web app detects if someone is wearing a face mask correctly, incorrectly or not.
+This system retrieves an image uploaded extract the faces detected in the image, feed each face into a serialized model `mask_detector.h5` which outputs a tuple composed of 3 values. The first value indicates the probability of no mask, the second value is the probability of a correct mask and the last one is the probability of the incorrect mask.
 Each face is bordered by the color indicating his situation (No mask, Correctl, Incorrect).
 This website is built from scratch with HTML and CSS deployed to Flask use yourlaptop to test.
 
@@ -38,8 +38,8 @@ The system depends on the following files.
 1. `app.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/app.py): The flask app
 2. `faceMask_model.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/faceMask_model.py): This file is the model used to build this project
 3. `masks_detector.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/masks_detector.py): This file is capable of detecting face mask in a live real-time video.
-4. `mask_detector_image.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_image.py) :This python file detected face mask from an image uploaded from the system
-5. `mask_detector_video.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_video.py):This python file detected face mask from an video uploaded from the system
+4. `mask_detector_image.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_image.py) :This python file detects face mask from an image uploaded from the system
+5. `mask_detector_video.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_video.py):This python file detects face mask from an video uploaded from the system
 6. `haarcascade_frontalface_default.xml` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/haarcascade_frontalface_default.xml) :The haar cascade classifier used for face detection.
 7. `model_detector.h5` :this file is a serialized pickle file which accpets an image or a video and output a tuple of probabilities determining if the face detected in the inputted file has a face mask wore properly or not. 
 8. `multi-face mask5B.ipynb` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/faceMask_model.ipynb) :this file is the model used to build this project check it.
