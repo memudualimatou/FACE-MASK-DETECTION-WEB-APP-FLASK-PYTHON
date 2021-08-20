@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Masks Detector Web Application</title>
+    <meta charset="utf-8">
+	<meta name="author" content="AnikeSadia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+
+</head>
+<body>
+<div id="header">
+
+<a id="logo" href="index.html">MaskDetector</a>
+<nav>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+</nav>
+
+</div>
+
+<div id='content1'>
+<img id ="img1" src='static/img1.jpg'/>
+
+<div class="content1-context">
+<h1>Face Mask Detector</h1>
+<p>
+This web application uses deep learning combined with computer vision to detect people 
+wearing a face mask <span class="span1"> correctly </span>, <span class="span1">incorrectly </span>or <span class="span1">not</span> through 
+live streams videos, uploaded URL and pictures. <br> </p>
+<br>
+<a id="explore-btn" href="#about">EXPLORE</a>
+
+</div>
+</div>
+
+
+<br><br>
+<br><br>
+
+<div id="about">
+<br>
+<h1>What Does The System Do ?</h1>
+<p> With the growing number of COVID-19 victims around the world, the protection against this invisible enemy is our priority, the most effecient way of fighting against it is to wear a face mask properly.
+Wearing a face mask is everyone's duty nowadays but wearing it correctly is mandory to our safety but this is not the case anymore as observed. Most people don't wear the face mask correctly.
+This is why this face mask detection platform is built, its goal is to predict wheter someone is earing a face mask correctly, incorrectly or not.
+The performmance of this system relies on a model built using deep learning. A proper way of wearing a face mask is demonstrated below.
+</p>
+
+<img id='sample-pic' src='static/IMG-8129.JPG'>
+
+</div>
+
+<div id="services">
+<h1>Our Services</h1>
+
+<div class="serv1">
+<div class="serv1-content">
+
+<h2>Upload Picture </h2>
+
+<p>
+This site detects if people in the uploaded picture are wearing a face mask 
+correctly, incorrectly or not.
+Besides the number of face on the video of people wearing a face was 
+correctky or not will be displayed.</p>
+
+<form action="/UploadImage" method="post">
+<input type="submit"  name="Manually Upload Image" value="Get Started" class="btn-serv" />
+</form>
+
+</div>
+
+<img class="img-serv" src='static/img2.jpg'><br><br>
+
+</div>
+
+<div class="serv1">
+<div class="serv1-content">
+
+<h2>Take Image from Web cam </h2>
+<p>
+This site detects if people in the live-video stream are wearing a face mask
+a face mask correctly, incorrectlyor not.
+Besides the number of face on the video of people wearing a face was correctky or not will be displayed.</p>
+
+<form action="/ImageStream" method="post">
+<input type="submit"  value="Get Started" class="btn-serv"/>
+</form>
+
+</div>
+<img class="img-serv" src='static/vvv.jpg'>
+
+</div>
+
+<div class="serv1">
+<div class="serv1-content">
+
+<h2> Insert Image URL </h2>
+<p>
+This site detects if people in the url of the image uploaded are wearing a face mask correctly,
+incorrectlyor not.
+Besides the number of face on the video of people wearing a face was
+correctky or not will be displayed.
+
+</p>
+<form action="/UploadURLImage" method="post">
+<input type="submit" name="Manually Upload Video" value="Get Started" class="btn-serv" />
+</form>
+
+</div>
+<img class="img-serv" src='static/kkk.jpg'>
+</div>
+</div>
+
+<div id="cases">
+<h1>Use Cases</h1>
+
+<div class="box">
+<img class="img-case" src='static/ddd.jpg'/>
+<br>
+<h2>Hospitals</h2>
+<p> Using Face Mask Detection System, Hospitals can monitor if their staff is wearing masks during their shift or not. If any health worker is found without a mask, they will receive a notification with a reminder to wear a mask. Also, if quarantine people who are required to wear a mask, the system can keep an eye and detect if the mask is present or not and send notification automatically or report to the authorities. </p>
+
+</div>
+
+<div class="box">
+<img class="img-case" src='static/xxxx.jpg'>
+<br>
+<h2>Airpots</h2>
+<p> The Face Mask Detection System can be used at airports to detect travelers without masks. Face data of travelers can be captured in the system at the entrance. If a traveler is found to be without a face mask, their picture is sent to the airport authorities so that they could take quick action. If the person’s face is already stored, like the face of an Airport worker, it can send the alert to the worker’s phone directly.<p>
+</div>
+
+
+<div class="box">
+<img class="img-case" src='static/dss.jpg'>
+
+<br>
+<h2>Offices</h2>
+<p> The Face Mask Detection System can be used at office premises to detect if employees are maintaining safety standards at work. It monitors employees without masks and sends them a reminder to wear a mask. The reports can be downloaded or sent an email at the end of the day to capture people who are not complying with the regulations or the requirements. </p>
+</div>
+
+</div>
+
+
+
+<div id="contact">
+
+
+<div id='contact_left'>
+
+<a href="#" class="foot-link">Github | </a>
+<a href="#" class="foot-link">LinkedIn | </a>
+<a href="#" class="foot-link">Twitter </a>
+<br> <br>   
+<br> <br>  
+</div>
+
+<div id="foot">
+<p>Number :(+234) 07039837627<br>
+Email: anikesadia01@gmail.com</p>
+<br>
+
+<p id="foot-right">&copy; 2021 | Designed by Anike Sadia.</p>
+</div>
+<div id='thefoot-logo'>
+<a id="foot-logo" href="index.html">MaskDetector</a>
+</div>
+</div>
+</body>

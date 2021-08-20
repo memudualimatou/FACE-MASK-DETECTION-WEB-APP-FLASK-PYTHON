@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Masks Detector Web Application</title>
+    <meta charset="utf-8">
+	<meta name="author" content="AnikeSadia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+
+</head>
+<body>
+<div class="upload_content">
+
+    <div id="header">
+
+        <a id="logo" href="index.html">MaskDetector</a>
+        <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        </nav>
+    </div>
+
+       <div class="animation_content">
+         
+         <h1 id="anime-h1" >UPLOAD IMAGE FACE MASK DETECTION</h1>
+
+           
+            <div class="animation-areaLeft" >
+            <br><br><br><br>
+            <h2 class="anime-h3">Upload Image from your System</h2>
+           
+                <form action="/UploadImageFunction" method="post" enctype="multipart/form-data" id="form">
+                    <input type="file" name="file" class="btn-serv">
+                    <input type="submit" value="Upload" class="btn-serv">
+
+                         
+                          <div class="prediction_Result">
+                              <br><br>
+                              <h2 class="anime-h3">Pediction Results: </h2>
+                              <br>
+                              {{number_of_face}}<br><br>
+                              {{no_mask_face}}<br><br>
+                              {{correct_mask_face}}<br><br>
+                              {{incorrect_mask_face}}</div><br>
+                </form>
+            </div>
+            <div class="animation-areaRight">
+            <img src="{{ user_image }}" id="pics">
+            </div>
+
+        </div>
+
+
+</div>
