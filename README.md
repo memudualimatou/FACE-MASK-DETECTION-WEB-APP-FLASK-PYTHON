@@ -46,6 +46,7 @@ The system depends on the following files.
 9. `model_detector.h5` :this file is a serialized pickle file which accpet an image or a video and output a tuple of probabilities determining if the face detected in the inputted file has a face mask wore properly or not. 
  
 
+## ✌️ RESULTS / OUTPUT
 
 
 ## 🔑 PEREQUISITES
