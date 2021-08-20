@@ -47,6 +47,9 @@ The system depends on the following files.
 
 ## ✌️ RESULTS / OUTPUTS
 
+<br>
+The WEB APPLICATION :
+![capture2](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/static/bandicam%202021-08-20%2014-41-04-816.mp4)
 
 ## 🔑 PEREQUISITES
 
