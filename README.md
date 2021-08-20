@@ -1,8 +1,8 @@
-<h2 align="center"> FACE MASK DETECTION SYSTEM USING PYTHON </h2>
+<h2 align="center"> FACE MASK DETECTION SYSTEM  </h2>
 
 
 
-## 👩 FACE MASK DETECTION 
+## 😷 FACE MASK DETECTION  😷
 
 A face mask detection is a system capable of detection if one or more individuals is/ are wearing their face mask. This project displays the number of faces detected, the number of peaople wearing the face mask **correctly**, **incorrectly** or **not** in a picture. 
 With the increasing number of COVID-19 victimes, integrating systems capable of detecting people wearing a face mask properly or not will help us track them easily. and I please everyone to wear their face mask correctly to reduce the risk of contaminationg one another.
