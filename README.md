@@ -48,13 +48,13 @@ The system depends on the following files.
 ## ⌛ Project Demo
 
 <br>
-The WEB APPLICATION :<br><br>
-![capture](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/main/IMAGES/ezgif.com-gif-maker%20(2).gif)<br><br><br>
+
+![capture](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/ezgif.com-gif-maker-_2_.gif)<br>
 <br><br>
 
 ## 🔑 PEREQUISITES
 
-All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/master/requirements.txt)
+All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/requirements.txt)
 
 
 ## 🚀 INSTALLATION
