@@ -44,6 +44,7 @@ The system depends on the following files.
 7. `index.html` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/templates/index.html):This file is used to display the structure of the web app
 8. `style.css` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/static/style.css) :this file beautifies the web app
 9. `model_detector.h5` :this file is a serialized pickle file which accpet an image or a video and output a tuple of probabilities determining if the face detected in the inputted file has a face mask wore properly or not. 
+10. `multi-face mask5B.ipynb` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/multi-face mask5B.ipynb) :this file isthe model used to build this project check it.
  
 
 ## ✌️ RESULTS / OUTPUT
