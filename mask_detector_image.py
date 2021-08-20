@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 
 # Loading the Model
-model = load_model('mask_detector_Best.h5')
+model = load_model('mask_detector.h5')
 
 # Loading the face
 # detector
