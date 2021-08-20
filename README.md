@@ -5,7 +5,7 @@
 
 ## 😷 FACE MASK DETECTION  😷
 
-A face mask detection is a system capable of detection if one or more individuals is/ are wearing their face mask. This project displays the number of faces detected, the number of peaople wearing the face mask **correctly**, **incorrectly** or **not** in a picture. 
+A face mask detection is a system capable of detecting if one or more individuals is/ are wearing their face mask. This project displays the number of faces detected, the number of peaople wearing the face mask **correctly**, **incorrectly** or **not** in a picture. 
 With the increasing number of COVID-19 victims, integrating systems capable of detecting people wearing a face mask properly or not will help us track them easily. I please everyone to wear their face mask correctly to reduce the risk of contaminationg one another.
 
 
