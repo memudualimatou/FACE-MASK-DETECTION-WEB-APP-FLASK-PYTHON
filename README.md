@@ -31,6 +31,20 @@ This website is not a responsive website built from scratch with HTML and CSS de
 **DATA COLLECTION**: To Download the dataset check this [repository](https://github.com/cabani/MaskedFace-Net)
 
 
+## 🔗 PROJECT FILES
+
+The system depends on the following files.
+
+1. `app.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/app.py): The flask app
+2. `faceMask_model.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/faceMask_model.py): This file is the model used to build this project
+3. `masks_detector.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/AppStyle.css): This file is capable of detecting fa mask in a real-time video.
+4. `mask_detector_image.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_image.py) :This python file detected face mask from an image uploaded from the system
+5. `mask_detector_video.py` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/mask_detector_video.py):This python file detected face mask from an video uploaded from the system
+6. `haarcascade_frontalface_default.xml` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/haarcascade_frontalface_default.xml) :The haar cascade classifier used for face detection.
+
+ 
+
+
 
 ## 🔑 PEREQUISITES
 
