@@ -43,7 +43,7 @@ The system depends on the following files.
 6. `haarcascade_frontalface_default.xml` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/haarcascade_frontalface_default.xml) :The haar cascade classifier used for face detection.
 7. `model_detector.h5` :this file is a serialized pickle file which accpets an image or a video and output a tuple of probabilities determining if the face detected in the inputted file has a face mask wore properly or not. 
 8. `multi-face mask5B.ipynb` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/faceMask_model.ipynb) :this file is the model used to build this project check it.
- 
+ <br><br>
 
 ## ⌛ Project Demo
 
