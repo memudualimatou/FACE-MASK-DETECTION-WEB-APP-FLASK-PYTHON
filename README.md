@@ -55,7 +55,7 @@ The system depends on the following files.
 
 ## 🔑 PEREQUISITES
 
-All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/requirements.txt)
+All the dependencies and required libraries are included in the file **requirements.txt** [See here](https://github.com/memudualimatou/FACE-MASK-DETECTION-WEB-APP-FLASK-PYTHON/blob/main/requirements.txt)
 
 
 ## 🚀 INSTALLATION
