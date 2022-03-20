@@ -26,7 +26,7 @@ With the increasing number of COVID-19 victims, integrating systems capable of d
 
 This system is a mask detection project that detects face mask on people'face. This flask web app detects if someone is wearing a face mask correctly, incorrectly or not.
 This system retrieves an image uploaded extract the faces detected in the image, feed each face into a serialized model `mask_detector.h5` which outputs a tuple composed of 3 values. The first value indicates the probability of no mask, the second value is the probability of a correct mask and the last one is the probability of the incorrect mask.
-In the output picture, ach face is bordered by the color indicating his situation (No mask, Correctl, Incorrect).
+In the output picture, ach face is bordered by the color indicating his situation (No mask, Correct, Incorrect).
 This website is built from scratch with HTML and CSS deployed to Flask use yourlaptop to test.
 
 **DATA COLLECTION**: To Download the dataset check this [repository](https://github.com/cabani/MaskedFace-Net)
