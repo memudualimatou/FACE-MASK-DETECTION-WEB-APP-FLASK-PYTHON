@@ -78,7 +78,7 @@ To download the **mask_detector.h5 (The serialized model of this project)** File
 `faceMask_model.py` on your local environment to save it. This file is too large to be uploaded here.
 
 ## 👏 And it's done!
-Feel free to mail me for any doubts/query ✉️ anikesadia01@gmail.com
+Feel free to mail me for any doubts/query ✉️ anikealima001@gmail.com
 
 ##  🤝 Contribution
 Feel free to file a new issue with a respective title and description on the this mask detection repository. If you already found a solution to your problem, I would love to review your pull request!
